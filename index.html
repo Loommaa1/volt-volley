@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Volt Volley</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px;font-family:"Segoe UI",system-ui,sans-serif;color:#fff;
+  background:radial-gradient(ellipse at 50% 20%,#4b1d6e,#140c3a 60%,#0b0820)}
+h1{font-size:clamp(52px,10vw,110px);font-weight:900;font-style:italic;letter-spacing:-2px;background:linear-gradient(90deg,#ffd23d,#ff6a3d,#ff3d8b,#9b5cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+p{opacity:.8;font-size:18px;text-align:center;padding:0 20px}
+.row{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+a{display:block;text-decoration:none;color:#fff;font-weight:900;font-size:26px;padding:20px 44px;border-radius:18px;transition:transform .1s}
+a:hover{transform:translateY(-3px) scale(1.03)}
+.d3{background:linear-gradient(#c07cff,#7b3dff);box-shadow:0 6px 0 #45188f,0 14px 30px #0008}
+.d2{background:linear-gradient(#ffcf3d,#ff8a1f);box-shadow:0 6px 0 #b1530a,0 14px 30px #0008;color:#3a1600}
+small{opacity:.6;font-size:13px}
+</style>
+</head>
+<body>
+  <h1>VOLT VOLLEY</h1>
+  <p>Volley arcade avec styles à pouvoirs, explosions de point, balles légendaires et mode classé.</p>
+  <div class="row">
+    <a class="d3" href="volley3d/index.html">🧊 Jouer en 3D</a>
+    <a class="d2" href="volley/index.html">🎮 Jouer en 2D</a>
+  </div>
+  <small>La version 3D a besoin d'Internet pour charger le moteur three.js.</small>
+</body>
+</html>
